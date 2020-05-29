@@ -1,0 +1,21 @@
+.navigation-points {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 10;
+}
+
+.navigation-point {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #DFDFDF;
+  margin: 10px 20px 10px 0;
+}
+
+.active {
+  background-color: orangered;
+}
