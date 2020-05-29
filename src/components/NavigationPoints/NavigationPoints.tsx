@@ -7,7 +7,7 @@ const NavigationPoints = () => {
 
     const onScroll = () => {
         const scrollHeight = window.scrollY;
-        const scrollSlice = Math.ceil(document.documentElement.scrollHeight / 4);
+        const scrollSlice = Math.ceil(document.documentElement.scrollHeight / 3);
         setIndex(Math.floor(scrollHeight / scrollSlice));
     };
 

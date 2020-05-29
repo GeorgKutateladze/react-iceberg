@@ -1,0 +1,40 @@
+.animated-points__outer {
+  width: 50px;
+  height: 50px;
+  border: 2px solid orangered;
+  border-radius: 50%;
+  background-color: lightcoral;
+  opacity: 0.8;
+
+  position: absolute;
+  top: 35%;
+  left: 56%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated-points__inner {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 1px solid orangered;
+  border-radius: 50%;
+  transition: 0.1s;
+}
+
+.animated-points__dynamic {
+  margin: auto;
+  position: absolute;
+  top: 28%;
+  left: 28%;
+  animation: pulse 1s 1s ease-out infinite backwards;
+  transform-origin: center;
+  transition: 0.1s;
+}
+
+@keyframes pulse {
+  from {transform: scale(1)}
+  to {transform: scale(2.5)}
+}

@@ -1,0 +1,36 @@
+.slider {
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+  left: 25%;
+  z-index: 10;
+}
+
+.timeline {
+  background-color: darkgray;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  height: 14px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.timeline-slider {
+  height: 50px;
+  width: 50px;
+  background-color: #eee;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+
+}
+
+.times {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+}
